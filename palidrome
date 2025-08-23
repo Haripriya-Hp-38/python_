@@ -1,0 +1,15 @@
+# Check if a string is a palindrome
+
+def is_palindrome(s):
+    s = s.lower()  
+    if s == s[::-1]:
+        print("Yes")
+        print(f'"{s}" is a palindrome.')
+    else:
+        print("No")
+        print(f'"{s}" is not a palindrome.')
+print("Case 1:")
+is_palindrome("madam")
+
+print("\nCase 2:")
+is_palindrome("python")  
